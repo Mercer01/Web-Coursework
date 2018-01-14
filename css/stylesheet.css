@@ -1,23 +1,42 @@
 body {
-	/*background-color: white;*/
-	background-image: image("1.png")
-    margin:0px;
-	padding:0px;
-	font-family:"Helvetica Neue", Helvetica, Arial;
+    background-color: white;
+    margin-left:12%;
+    padding:0px;
+    height:100%;
+    font-family:"Helvetica Neue", Helvetica, Arial;
+    line-break: normal;
 }
-
-h1 {
-    color: black;
+h1{
     text-align: center;
 }
 
 p {
     font-family: Cambria;
-    color: black;
     font-size: 20px;
 }
-body {
-    font-family: "Lato", sans-serif;
+
+#main {
+    overflow: auto;
+    padding-bottom: 180px;
+    /* must be same height as the footer */
+  }
+
+
+.reference {
+    font-family: "Helvetica Neue",Arial, Helvetica;
+    padding: -10%;
+    font-size: 85%;
+    line-break: auto;
+}
+
+
+
+.footer_sidebar {
+    position: fixed;
+    left:1%;
+    width: 200px;
+    bottom: 0;
+    display: block;
 }
 
 .sidenav {
@@ -42,10 +61,6 @@ body {
 
 .sidenav a:hover {
     color: #f1f1f1;
-}
-
-.main {
-    margin-left: 200px; /* Same as the width of the sidenav */
 }
 
 @media screen and (max-height: 450px) {
