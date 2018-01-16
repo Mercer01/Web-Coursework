@@ -15,13 +15,6 @@ p {
     font-size: 20px;
 }
 
-#main {
-    overflow: auto;
-    padding-bottom: 180px;
-    /* must be same height as the footer */
-  }
-
-
 .reference {
     font-family: "Helvetica Neue",Arial, Helvetica;
     padding: -10%;
@@ -29,32 +22,30 @@ p {
     line-break: auto;
 }
 
-
-
 .footer_sidebar {
     position: fixed;
     left:1%;
-    width: 200px;
+    width: 10%;
     bottom: 0;
     display: block;
 }
 
 .sidenav {
     height: 100%;
-    width: 200px;
+    width: 10%;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
     background-color: #111;
     overflow-x: hidden;
-    padding-top: 20px;
+    padding-top: 1%;
 }
 
 .sidenav a {
-    padding: 6px 6px 6px 32px;
+    padding: 6px 6px 2px 18px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 120%;
     color: #818181;
     display: block;
 }
