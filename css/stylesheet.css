@@ -15,6 +15,14 @@ p {
     font-size: 20px;
 }
 
+#article {
+    padding: 2px 2px 4px 4px;
+    background: #cfcece;
+    border-radius: 1%;
+    display: block
+}
+
+
 .reference {
     font-family: "Helvetica Neue",Arial, Helvetica;
     padding: -10%;
@@ -24,7 +32,7 @@ p {
 
 .footer_sidebar {
     position: fixed;
-    left:1%;
+    /* left:1%; */
     width: 10%;
     bottom: 0;
     display: block;
