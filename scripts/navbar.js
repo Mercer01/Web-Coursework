@@ -1,7 +1,8 @@
 function create_navbar() {
     var d1 = document.getElementById('navbar');
     d1.insertAdjacentHTML('afterbegin',`
-    <div class="sidenav">
+    <div id ="side" class="sidenav">
+      <button id="close" onclick="close()">Close &times;</button> 
       <a href="index.html">Home</a>
       <a href="litreview.html">Literature Review</a>
       <a href="worklog.html">Worklogs</a>
