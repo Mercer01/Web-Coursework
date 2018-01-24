@@ -8,31 +8,98 @@
     <link rel="stylesheet" title="My Style" href="css/stylesheet.css">
     <title>Literature Review</title>
 </head>
-    <div id="navbar"></div>
-    <script src="scripts/navbar.js"></script>
-    <body>
-        <article id = 'article'>
+<div id="navbar"></div>
+<script src="scripts/navbar.js"></script>
+
+<body>
+    <article id='article'>
         <h1>Mitigating Corporate Information Exposure on the Web</h1>
-            <h2>Introduction</h2>
-                <p>For any business, their presence on the internet is a key tool to their success. Whether it being used to expose of your business to potential new clients, or even operating the entirety of your business online the use of the web is key.  However, using such a service comes with a risk, as it opens up your IT infrastructure to potential threats across the world, who will use any weakness from within your system to attack it.</p>
-                <p>Social hacking, is the process in which people use the lack of understanding in staff, to break into and gain access to systems. The main solution for this is education and reducing the possibility of this happening, and in the digital era it is one of the largest expenses of a company, to ensure that all of its staff are aware of how these happen and what can be done to stop them.</p>
-                <p>As well, having secure IT infrastructure on both a data and physical layer is key. To prevent users from injecting code into systems, sending false requests to servers, or editing data within the database. Through use of SQL injection vast quantities of user data can be edited and or removed from a system. As well as preventing the access of key loggers or skimmers being added to systems is key.</p>
-            <h2> The effectiveness of education of staff</h2>
-                <p>In any organization, it is understood that the main flaw in any organization’s security system are the employees of the organization (Ivaturi, Janczewski, 2011, Page 3). And these can be exploited using any piece of technology within the organization, whether that be the self-guided tour that is provided or the main sales database of the organisation, wherein if the attack achieves it end goal, it is a success for them, even if the information that is provided is non-critical (Ivaturi, et al, 2011, Page 3).</p>
-                <p>A key element to the education of staff in the prevention of data breaches and information leaks within an organisation starts with senior staff (Barton, Tejay, Lane, Terrell, 2016, Page 2) Their initial compliance, can lead to greater effectiveness of a company’s security policy, and the associated risks behind it. And the increased involvement of senior management in all levels of system security will contribute to a greater success of the overall scheme and more support. (Barton et al, 2016, page 2). </p>
-                <p>However, beyond that the education of all staffs on many different intrusion methods and ensuring they understand how each method can be initiated within their machine (Alexandre, 2016, Page 2). Not much can be done by a user, without starting to take time out of their original job, or spending vast quantities of money on security technicians. However, as agreed by Michael Lane et al the best way of creating a “security culture” is awareness, responsibility, response, ethics, democracy, risk assessment, security design and implementation, security management, and reassessment, to ensure that the system is well protected and as many potential problems are covered before an attack even happens.</p>
-            <h2>Creating secure IT infrastructure </h2>
-                <p>For any system, the easiest way to make a system secure, is to not have it connected to the Web. This prevents any form of attach from outside of the system, but may reduce the overall effectiveness of the system to begin with. For any service that is meant to be accessed by a wide range of people (e.g. eCommerce) the security of the web page will have significant effects, firstly using Hypertext Transfer Protocol Secure (HTTPS), for the site and using SSL protocols to allow for secure communication between the browser and your site, to ensure all data sent and received at both ends is secure and cannot be intercepted (Mohammed Abdulridh Hussain, Hai Jin, Zaid Alaa Hussien, Zaid Ameen Abduljabbar, Salah H. Abbdal and Ayad Ibrahim, 2017, Para 2-4). During the connection period to a website there is a period in which browser information and requests can be intercepted usually at the network/outgoing layer. This will allow for code or requests to be intercepted at which point data can be read from them. These are known as Man in the Middle attacks (Mohammed Abdulridh Hussain, et al, 2017, Para 4-6).</p>
-                <p>As well as stopping flaws within the site that can lead to lose of data or incorrect data being stored. One of the more common methods to attach a website is SQL Injection. The idea behind this attack is that a piece of SQL is entered into the system via a field e.g. User login. Then when the request of the user is processed by the system, instead of taking the input as data it is processed, causing a SQL command to be run instead (William G.J. Halfond, Jeremy Viegas, and Alessandro Orso (2006), Page 2). This can have disastrous effects causing in some cases all of the data to be lost within the system, or data to be changed in ways making it invalid. However, there are also ways of protecting against this, with the root cause for any of these problems relating to insufficient input validation. Firstly, input checking can be carried out to look for specific keywords within the query. As well as positive pattern matching can be carried out to compare the input to common SQL code to prevent these from being executed on the website. (William G.J. Halfond et al (2006), Page 6). However, these will only ever work if all inputs are covered. Another, stronger method that is also used is the encoding of all data inputs, this means that after the data is entered there is no possible way that it can be interpreted as SQL, and instead will just be stored as a record within the database. There are also a number of limitations with some databases where it will not allow you to store certain combinations of keywords within the system.</p>
-            <h2>Conclusion</h2>
-                <p>There will be no end or perfect way to prevent web attacks from hitting a company, if there is some economic value in doing so it will happen. The only way of safe guarding is an active protection scheme that is constantly evolving to protect against as many problems as possible. As more exploits will be found in every system, over time with bugs emerging and security problems years after the release of the software. Meaning that all systems need to be maintained as you never know when the next potential bug or flaw will come into the system. 
-        <h2>References</h2>
-            <p class='reference'>Kevin A. Barton, Gurvirender Tejay, Michael Lane, Steve Terrell,(2016), Information system security commitment: A study of external influences on senior management <a href='https://www.sciencedirect.com/science/article/pii/S0167404816300104'>link</a> </p>  
-            <p class='reference'>Koteswara Ivaturi, Lech Janczewski (June 2011) A Taxonomy for Social Engineering attacks <a href ='http://aisel.aisnet.org/cgi/viewcontent.cgi?article=1015&context=confirm2011'>Link</a></p>
-            <p class='reference'>Marck Alexandre (December 2016)  Security Controls In Financial Institutions: A Comparison Between The United States And United Kingdom <a href='https://search.proquest.com/openview/b364bb4c2c2822f38dff1143acca873d/1?pq-origsite=gscholar&cbl=18750&diss=y'>link</a></p>
-            <p class='reference'>Mohammed Abdulridh Hussain, Hai Jin, Zaid Alaa Hussien, Zaid Ameen Abduljabbar, Salah H. Abbdal and Ayad Ibrahim. (2017) Enc-DNS-HTTP: Utilising DNS Infrastructure to Secure Web Browsing <a href=https://www.hindawi.com/journals/scn/2017/947947>link</a></p>
-            <p class='reference'>Steve H. Weingart (2002) Physical Security Devices for Computer Subsystems: A Survey of Attacks and Defenses <a href = 'https://link.springer.com/content/pdf/10.1007%2F3-540-44499-8_24.pdf'>Link</a></p>
-            <p class='reference'>William G.J. Halfond, Jeremy Viegas, and Alessandro Orso (2006) A Classification of SQL Injection Attacks and Countermeasures <a href ='http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.95.2968&rep=rep1&type=pdf'>Link</a></p>
-        </article>
-    </body>
+        <h2>Introduction</h2>
+        <p>For any business, their presence on the internet is a key tool to their success. Whether it being used to expose
+            of your business to potential new clients, or even operating the entirety of your business online the use of
+            the web is key. However, using such a service comes with a risk, as it opens up your IT infrastructure to potential
+            threats across the world, who will use any weakness from within your system to attack it.</p>
+        <p>Social hacking, is the process in which people use the lack of understanding in staff, to break into and gain access
+            to systems. The main solution for this is education and reducing the possibility of this happening, and in the
+            digital era it is one of the largest expenses of a company, to ensure that all of its staff are aware of how
+            these happen and what can be done to stop them.</p>
+        <p>As well, having secure IT infrastructure on both a data and physical layer is key. To prevent users from injecting
+            code into systems, sending false requests to servers, or editing data within the database. Through use of SQL
+            injection vast quantities of user data can be edited and or removed from a system. As well as preventing the
+            access of key loggers or skimmers being added to systems is key.</p>
+        <h2> The effectiveness of education of staff</h2>
+        <p>In any organization, it is understood that the main flaw in any organization’s security system are the employees
+            of the organization (Ivaturi, Janczewski, 2011, Page 3). And these can be exploited using any piece of technology
+            within the organization, whether that be the self-guided tour that is provided or the main sales database of
+            the organisation, wherein if the attack achieves it end goal, it is a success for them, even if the information
+            that is provided is non-critical (Ivaturi, et al, 2011, Page 3).</p>
+        <p>A key element to the education of staff in the prevention of data breaches and information leaks within an organisation
+            starts with senior staff (Barton, Tejay, Lane, Terrell, 2016, Page 2) Their initial compliance, can lead to greater
+            effectiveness of a company’s security policy, and the associated risks behind it. And the increased involvement
+            of senior management in all levels of system security will contribute to a greater success of the overall scheme
+            and more support. (Barton et al, 2016, page 2). </p>
+        <p>However, beyond that the education of all staffs on many different intrusion methods and ensuring they understand
+            how each method can be initiated within their machine (Alexandre, 2016, Page 2). Not much can be done by a user,
+            without starting to take time out of their original job, or spending vast quantities of money on security technicians.
+            However, as agreed by Michael Lane et al the best way of creating a “security culture” is awareness, responsibility,
+            response, ethics, democracy, risk assessment, security design and implementation, security management, and reassessment,
+            to ensure that the system is well protected and as many potential problems are covered before an attack even
+            happens.</p>
+        <h2>Creating secure IT infrastructure </h2>
+        <p>For any system, the easiest way to make a system secure, is to not have it connected to the Web. This prevents any
+            form of attach from outside of the system, but may reduce the overall effectiveness of the system to begin with.
+            For any service that is meant to be accessed by a wide range of people (e.g. eCommerce) the security of the web
+            page will have significant effects, firstly using Hypertext Transfer Protocol Secure (HTTPS), for the site and
+            using SSL protocols to allow for secure communication between the browser and your site, to ensure all data sent
+            and received at both ends is secure and cannot be intercepted (Mohammed Abdulridh Hussain, Hai Jin, Zaid Alaa
+            Hussien, Zaid Ameen Abduljabbar, Salah H. Abbdal and Ayad Ibrahim, 2017, Para 2-4). During the connection period
+            to a website there is a period in which browser information and requests can be intercepted usually at the network/outgoing
+            layer. This will allow for code or requests to be intercepted at which point data can be read from them. These
+            are known as Man in the Middle attacks (Mohammed Abdulridh Hussain, et al, 2017, Para 4-6).</p>
+        <p>As well as stopping flaws within the site that can lead to lose of data or incorrect data being stored. One of the
+            more common methods to attach a website is SQL Injection. The idea behind this attack is that a piece of SQL
+            is entered into the system via a field e.g. User login. Then when the request of the user is processed by the
+            system, instead of taking the input as data it is processed, causing a SQL command to be run instead (William
+            G.J. Halfond, Jeremy Viegas, and Alessandro Orso (2006), Page 2). This can have disastrous effects causing in
+            some cases all of the data to be lost within the system, or data to be changed in ways making it invalid. However,
+            there are also ways of protecting against this, with the root cause for any of these problems relating to insufficient
+            input validation. Firstly, input checking can be carried out to look for specific keywords within the query.
+            As well as positive pattern matching can be carried out to compare the input to common SQL code to prevent these
+            from being executed on the website. (William G.J. Halfond et al (2006), Page 6). However, these will only ever
+            work if all inputs are covered. Another, stronger method that is also used is the encoding of all data inputs,
+            this means that after the data is entered there is no possible way that it can be interpreted as SQL, and instead
+            will just be stored as a record within the database. There are also a number of limitations with some databases
+            where it will not allow you to store certain combinations of keywords within the system.</p>
+        <h2>Conclusion</h2>
+        <p>There will be no end or perfect way to prevent web attacks from hitting a company, if there is some economic value
+            in doing so it will happen. The only way of safe guarding is an active protection scheme that is constantly evolving
+            to protect against as many problems as possible. As more exploits will be found in every system, over time with
+            bugs emerging and security problems years after the release of the software. Meaning that all systems need to
+            be maintained as you never know when the next potential bug or flaw will come into the system.
+            <h2>References</h2>
+            <p class='reference'>Kevin A. Barton, Gurvirender Tejay, Michael Lane, Steve Terrell,(2016), Information system security commitment:
+                A study of external influences on senior management
+                <a href='https://www.sciencedirect.com/science/article/pii/S0167404816300104'>link</a>
+            </p>
+            <p class='reference'>Koteswara Ivaturi, Lech Janczewski (June 2011) A Taxonomy for Social Engineering attacks
+                <a href='http://aisel.aisnet.org/cgi/viewcontent.cgi?article=1015&context=confirm2011'>Link</a>
+            </p>
+            <p class='reference'>Marck Alexandre (December 2016) Security Controls In Financial Institutions: A Comparison Between The United
+                States And United Kingdom
+                <a href='https://search.proquest.com/openview/b364bb4c2c2822f38dff1143acca873d/1?pq-origsite=gscholar&cbl=18750&diss=y'>link</a>
+            </p>
+            <p class='reference'>Mohammed Abdulridh Hussain, Hai Jin, Zaid Alaa Hussien, Zaid Ameen Abduljabbar, Salah H. Abbdal and Ayad Ibrahim.
+                (2017) Enc-DNS-HTTP: Utilising DNS Infrastructure to Secure Web Browsing
+                <a href=https://www.hindawi.com/journals/scn/2017/947947>Link</a>
+            </p>
+            <p class='reference'>Steve H. Weingart (2002) Physical Security Devices for Computer Subsystems: A Survey of Attacks and Defenses
+                <a href='https://link.springer.com/content/pdf/10.1007%2F3-540-44499-8_24.pdf'>Link</a>
+            </p>
+            <p class='reference'>William G.J. Halfond, Jeremy Viegas, and Alessandro Orso (2006) A Classification of SQL Injection Attacks and
+                Countermeasures
+                <a href='http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.95.2968&rep=rep1&type=pdf'>Link</a>
+            </p>
+    </article>
+</body>
+
 </html>
