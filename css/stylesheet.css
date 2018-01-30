@@ -1,12 +1,13 @@
 body {
     background-color: white;
-    margin-left:200px;
-    padding:0px;
-    height:100%;
-    font-family:"Helvetica Neue", Helvetica, Arial;
+    margin-left: 210px;
+    padding: 0px;
+    height: 100%;
+    font-family: "Helvetica Neue", Helvetica, Arial;
     line-break: normal;
 }
-h1{
+
+h1 {
     text-align: center;
 }
 
@@ -22,9 +23,30 @@ p {
     display: block
 }
 
+#close {
+    border: none;
+    display: block;
+    padding-left: 90%;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    color: #818181;
+    font-size: 110%;
+    text-align: right;
+}
+
+#open {
+    margin-left: -200px;
+    position: relative
+}
 
 .reference {
-    font-family: "Helvetica Neue",Arial, Helvetica;
+    font-family: "Helvetica Neue", Arial, Helvetica;
     padding: -10%;
     font-size: 85%;
     line-break: auto;
@@ -47,7 +69,6 @@ p {
     left: 0;
     background-color: #111;
     overflow-x: hidden;
-    padding-top: 1%;
 }
 
 .sidenav a {
@@ -63,6 +84,10 @@ p {
 }
 
 @media screen and (max-height: 450px) {
-	.sidenav {padding-top: 15px;}
-	.sidenav a {font-size: 18px;}
-  }
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
