@@ -16,6 +16,14 @@ p {
     font-size: 20px;
 }
 
+#video {
+    margin-left: 210px;
+    margin: 0 auto; 
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+}
+
 #article {
     padding: 2px 2px 4px 4px;
     background: #cfcece;
