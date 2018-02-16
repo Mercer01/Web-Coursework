@@ -9,108 +9,114 @@
     <title>Worklog</title>
 </head>
 
-</head>
+<body id="main"></body>
 <div id="navbar"></div>
 <script src="scripts/navbar.js"></script>
 <button id="open" onclick="open()">&#9776;</button>
 
-<body id = "main">
-    <article id='article'>
-        <h1>Worklog 2017-2018</h1>
-        <h2>18th Sept</h2>
-        <p>We were introduced to our lecturers and the course; however, it was not an actual practical. As part of the introduction
-            week, we simply went over how to use Moodle for our Module and what is expected of us.
-        </p>
-        <h2>26th Sept</h2>
-        <p>
-            I had my first formal WEBF1 practical of the academic year, the majority of this session was spent detailing the course and being introduced to our peers for the rest of the academic year
-        </p>
-        <h2>3rd October</h2>
-        <p>As a class, we had the task to individually index and locate websites as part of a questionnaire, we had to find poorly designed websites such as: <a href ="www.lingscars.com"> www.lingscars.com</a> or <a href= "www.hosanna1.com">www.hosanna1.com</a>. 
-        </p>
-        <h2>10th October</h2>
-        <p>
-            We were tasked to work in groups of three complete a questionnaire based on Web Security, we had five
-            sections to input data, mainly opinions, the subject headers were:
-        </p>
-            <ul>
-                <li>Data Generated about myself on a daily basis.</li>
-                <li>How the data is captured</li>
-                <li>How the data is shared</li>
-                <li>How the data can be secured</li>
-            </ul>
-        <p>
-            We had to list several ways of how information is created regarding oneself on mediums like social media. We concluded how
-            much personal data people upload on a daily basis. Much of this is data such as, geolocation via sign in and photos to learn personal patters and whereabouts,
-            Especially now with one of the most powerful devices ever in everyone's pocket, it becomes easier and easier to capture and send information about everybody all the time. 
-            However this can have other implications such as the possibility of leading to criminal actions. 
-        </p>
-        <h2>17th Oct</h2>
-        <p>
-            This week we were introduced to Academic writing and how to write in a format to present our ideas as a whole rather than making them seem personal to each individual.
-            As well as introducing a format of more formal writing style to present to a body of academics or others etc.
-        </p>
-        <h2>24th Oct</h2>
-        <p>
-            This was the first practical relating to 
-        </p>
-        <h2>1st Nov</h2>
-        <p>
-            Week Six has been dedicated for reading, more specifically, the reading of
-            peer papers concerning the previous lit review. I have spent the past week reading
-            five peer documents.
-        </p>
-        <h2>7th Nov</h2>
-        <p>
-            We focused on creating a simple webpage created with HTML and attempted to upload said page to our Uni VM. Starting it using an apache2 server running of Debian.
-            This later led to problems as I started multiple other projects/ node based webistes on the vm. Which at some point caused the `iptables` to become broken
-        </p>
-        <h2>21st Nov</h2>
-        <p>
-            We had the first formal upload for the lit review. Which lead to the markup and then return based upon Peer marking and then a final mark by the tutor
-        </p>
-        <h2>21st Nov</h2>
-        <p>
-            the main focal point to week nine was efficency, predominantly within Web  
-            Dev; the uni hit heavy with the recommendation of using Atom.io as it has lots of
-            in-built and third-party packages that aid in the development of web pages. However I perfsonally prefer vscode as an IDE. 
-            Mainly because installing packages is easier and its integration with other languages is much easier to setup than atom's  
-        </p>
-        <h2>28th Nov</h2>
-        <p>
-            Our tasks was to arrange listed cards into appropriate cateogroies, the purpose of this was to perpare
-            the mindset of the user when creating a navigation model for our website. 
-            However, this is mainly client based problem rather than being faced towards the web developer. 
-        </p>
-        <h2>5th Dec</h2>
-        <p>
-            As our coursework is going to be set in the near future,
-            the lecturers tasked us to some webpage work. Firstly, we cloned week 10's lecture webpages from the
-            ``PORTSOC'' github to our VM's, we then ran the HTTP-Server in-order to view these webpages to which we could
-            play around with HTML and CSS code.
-        </p>
-        <h2>12th Dec</h2>
-        <p>
-            Extended work our coursework started to move the worklog into HTML pages. As well as moving over the literature reivew
-        </p>
-        <h2>9th Jan</h2>
-        <p>
-            Our first practical back after the new year... I have had a break
-            from most programming languages and to that, I have been making silly and simple mistakes.
-            Matt had to reinform me of how to code a for loop; I did learn the difference between (JS keyword)
-            appending a tag and setting the attribute ``.textContent = '' will have a different affect on the tag's outcome.
-            Overall, a productive Practical session as my idea of a dynamically types HTML navigation menu in JavaScript has
-            come to life.
-        </p>
-        <h2>16th Jan</h2>
-        <p>
-            Fixed IPtables on VM due to mismatch with previous application. This meant that the website was not externally visible.
-            after running the command <code>sudo iptables -t nat -A OUTPUT -o lo -p tcp --dport 80 -j REDIRECT --to-port 8080</code>
-            It was remaped back to its original state
-        </p>
-        
 
-    </article>
+<article id='article'>
+    <h1>Worklog 2017-2018</h1>
+    <h2>18th Sept</h2>
+    <p>We were introduced to our lecturers and the course; however, it was not an actual practical. As part of the introduction
+        week, we simply went over how to use Moodle for our Module and what is expected of us.
+    </p>
+    <h2>26th Sept</h2>
+    <p>
+        I had my first formal WEBF1 practical of the academic year, the majority of this session was spent detailing the course and
+        being introduced to our peers for the rest of the academic year
+    </p>
+    <h2>3rd October</h2>
+    <p>As a class, we had the task to individually index and locate websites as part of a questionnaire, we had to find poorly
+        designed websites such as:
+        <a href="www.lingscars.com"> www.lingscars.com</a> or
+        <a href="www.hosanna1.com">www.hosanna1.com</a>.
+    </p>
+    <h2>10th October</h2>
+    <p>
+        We were tasked to work in groups of three complete a questionnaire based on Web Security, we had five sections to input data,
+        mainly opinions, the subject headers were:
+    </p>
+    <ul>
+        <li>Data Generated about myself on a daily basis.</li>
+        <li>How the data is captured</li>
+        <li>How the data is shared</li>
+        <li>How the data can be secured</li>
+    </ul>
+    <p>
+        We had to list several ways of how information is created regarding oneself on mediums like social media. We concluded how
+        much personal data people upload on a daily basis. Much of this is data such as, geolocation via sign in and photos
+        to learn personal patters and whereabouts, Especially now with one of the most powerful devices ever in everyone's
+        pocket, it becomes easier and easier to capture and send information about everybody all the time. However this can
+        have other implications such as the possibility of leading to criminal actions.
+    </p>
+    <h2>17th Oct</h2>
+    <p>
+        This week we were introduced to Academic writing and how to write in a format to present our ideas as a whole rather than
+        making them seem personal to each individual. As well as introducing a format of more formal writing style to present
+        to a body of academics or others etc.
+    </p>
+    <h2>24th Oct</h2>
+    <p>
+        This was the first practical relating to
+    </p>
+    <h2>1st Nov</h2>
+    <p>
+        Week Six has been dedicated for reading, more specifically, the reading of peer papers concerning the previous lit review.
+        I have spent the past week reading five peer documents.
+    </p>
+    <h2>7th Nov</h2>
+    <p>
+        We focused on creating a simple webpage created with HTML and attempted to upload said page to our Uni VM. Starting it using
+        an apache2 server running of Debian. This later led to problems as I started multiple other projects/ node based
+        webistes on the vm. Which at some point caused the `iptables` to become broken
+    </p>
+    <h2>21st Nov</h2>
+    <p>
+        We had the first formal upload for the lit review. Which lead to the markup and then return based upon Peer marking and then
+        a final mark by the tutor
+    </p>
+    <h2>21st Nov</h2>
+    <p>
+        the main focal point to week nine was efficency, predominantly within Web Dev; the uni hit heavy with the recommendation
+        of using Atom.io as it has lots of in-built and third-party packages that aid in the development of web pages. However
+        I perfsonally prefer vscode as an IDE. Mainly because installing packages is easier and its integration with other
+        languages is much easier to setup than atom's
+    </p>
+    <h2>28th Nov</h2>
+    <p>
+        Our tasks was to arrange listed cards into appropriate cateogroies, the purpose of this was to perpare the mindset of the
+        user when creating a navigation model for our website. However, this is mainly client based problem rather than being
+        faced towards the web developer.
+    </p>
+    <h2>5th Dec</h2>
+    <p>
+        As our coursework is going to be set in the near future, the lecturers tasked us to some webpage work. Firstly, we cloned
+        week 10's lecture webpages from the ``PORTSOC'' github to our VM's, we then ran the HTTP-Server in-order to view
+        these webpages to which we could play around with HTML and CSS code.
+    </p>
+    <h2>12th Dec</h2>
+    <p>
+        Extended work our coursework started to move the worklog into HTML pages. As well as moving over the literature reivew
+    </p>
+    <h2>9th Jan</h2>
+    <p>
+        Our first practical back after the new year... I have had a break from most programming languages and to that, I have been
+        making silly and simple mistakes. Matt had to reinform me of how to code a for loop; I did learn the difference between
+        (JS keyword) appending a tag and setting the attribute ``.textContent = '' will have a different affect on the tag's
+        outcome. Overall, a productive Practical session as my idea of a dynamically types HTML navigation menu in JavaScript
+        has come to life.
+    </p>
+    <h2>16th Jan</h2>
+    <p>
+        Fixed IPtables on VM due to mismatch with previous application. This meant that the website was not externally visible. after
+        running the command
+        <code>sudo iptables -t nat -A OUTPUT -o lo -p tcp --dport 80 -j REDIRECT --to-port 8080</code>
+        It was remaped back to its original state
+    </p>
+
+
+</article>
 </body>
 <script src="scripts/collapse.js"></script>
 
