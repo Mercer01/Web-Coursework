@@ -49,8 +49,9 @@ p {
 }
 
 #open {
-    margin-left: -200px;
-    position: relative
+    margin-left: 0px;
+    position: relative;
+    display: none
 }
 
 .mainimg{
