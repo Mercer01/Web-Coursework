@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" title="My Style" href="css/stylesheet.css">
-    <title>Worklog text input</title>
+    <title>Worklog</title>
 </head>
 
 </head>
@@ -14,8 +14,9 @@
 <script src="scripts/navbar.js"></script>
 <button id="open" onclick="open()">&#9776;</button>
 
-<body>1
+<body>
     <article id='article'>
+        <h1>Worklog 2017-2018</h1>
         <h2>18th Sept</h2>
         <p>We were introduced to our lecturers and the course; however, it was not an actual practical. As part of the introduction
             week, we simply went over how to use Moodle for our Module and what is expected of us.
@@ -61,36 +62,36 @@
         </p>
         <h2>7th Nov</h2>
         <p>
-            we focused on creating a simple webpage created with HTML and attempted to upload said page to our Uni VM. 
+            We focused on creating a simple webpage created with HTML and attempted to upload said page to our Uni VM. Starting it using an apache2 server running of Debian.
+            This later led to problems as I started multiple other projects/ node based webistes on the vm. Which at some point caused the `iptables` to become broken
         </p>
         <h2>21st Nov</h2>
         <p>
-            we had the first formal upload for the lit review. which lead to the markup and then return based upon Initaly peer marking and then a final mark by the tutor
+            We had the first formal upload for the lit review. Which lead to the markup and then return based upon Peer marking and then a final mark by the tutor
         </p>
         <h2>21st Nov</h2>
         <p>
-            the main focal point to week nine was efficency, predominantly within Web
+            the main focal point to week nine was efficency, predominantly within Web  
             Dev; the uni hit heavy with the recommendation of using Atom.io as it has lots of
-            in-built and third-party packages that aid in the development of web pages. As this is a discovery log,
-            I have not discovered anything new as I have been using Atom.io for a long time.
+            in-built and third-party packages that aid in the development of web pages. However I perfsonally prefer vscode as an IDE. 
+            Mainly because installing packages is easier and its integration with other languages is much easier to setup than atom's  
         </p>
         <h2>28th Nov</h2>
         <p>
-            We took more of a ``Low-fi'' approach with practical tasks, umm, we used
-            pen a paper to complete ``information design challenges'', however, this does fit into our coursework.
-            Out tasks was to arrange listed cards into appropriate cateogroies, the purpose of this was to perpare
+            Our tasks was to arrange listed cards into appropriate cateogroies, the purpose of this was to perpare
             the mindset of the user when creating a navigation model for our website. 
+            However, this is mainly client based problem rather than being faced towards the web developer. 
         </p>
         <h2>5th Dec</h2>
         <p>
-            as our coursework is going to be set in the near future,
+            As our coursework is going to be set in the near future,
             the lecturers tasked us to some webpage work. Firstly, we cloned week 10's lecture webpages from the
             ``PORTSOC'' github to our VM's, we then ran the HTTP-Server in-order to view these webpages to which we could
             play around with HTML and CSS code.
         </p>
         <h2>12th Dec</h2>
         <p>
-            Extended work our coursework started to move the worklog into HTML pages
+            Extended work our coursework started to move the worklog into HTML pages. As well as moving over the literature reivew
         </p>
         <h2>9th Jan</h2>
         <p>
@@ -103,9 +104,12 @@
         </p>
         <h2>16th Jan</h2>
         <p>
-            Fixed IPtables on VM due to mismatch with previous application 
+            Fixed IPtables on VM due to mismatch with previous application. This meant that the website was not externally visible.
+            after running the command <code>sudo iptables -t nat -A OUTPUT -o lo -p tcp --dport 80 -j REDIRECT --to-port 8080</code>
+            It was remaped back to its original state
         </p>
         
+
     </article>
 </body>
 <script src="scripts/collapse.js"></script>

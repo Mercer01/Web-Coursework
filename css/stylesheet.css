@@ -19,9 +19,10 @@ p {
 #video {
     margin-left: 210px;
     margin: 0 auto; 
-    width: 400px;
     display: block;
     margin: 0 auto;
+    width: 80%    !important;
+    height: auto   !important;
 }
 
 #article {
@@ -35,7 +36,6 @@ p {
     border: none;
     display: block;
     padding-left: 90%;
-    vertical-align: middle;
     overflow: hidden;
     text-decoration: none;
     color: inherit;
@@ -52,6 +52,14 @@ p {
     margin-left: -200px;
     position: relative
 }
+
+.mainimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 
 .reference {
     font-family: "Helvetica Neue", Arial, Helvetica;
