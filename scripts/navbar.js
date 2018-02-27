@@ -1,7 +1,7 @@
 function create_navbar() {
     var d1 = document.getElementById('navbar');
     d1.insertAdjacentHTML('afterbegin',`
-    <div id ="side" class="sidenav">
+    <nav id ="side">
       <button id="close" onclick="close()">&times;</button> 
       <a href="index.html">Home</a>
       <a href="litreview.html">Literature Review</a>
@@ -18,9 +18,8 @@ function create_navbar() {
                     src="https://www.w3.org/Icons/valid-html401-blue"
                     alt="Valid HTML!" />
         </a>
-</footer>
       </footer>
-    </div>
+    </nav>
     `
   );
 }

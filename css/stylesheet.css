@@ -77,9 +77,9 @@ p {
     display: block;
 }
 
-.sidenav {
+#side {
     height: 100%;
-    width: 200px;
+    width: 200px; 
     position: fixed;
     z-index: 1;
     top: 0;
@@ -88,7 +88,7 @@ p {
     overflow-x: hidden;
 }
 
-.sidenav a {
+#side a {
     padding: 6px 6px 2px 18px;
     text-decoration: none;
     font-size: 120%;
@@ -96,15 +96,15 @@ p {
     display: block;
 }
 
-.sidenav a:hover {
+#side a:hover, #close:hover{
     color: #f1f1f1;
 }
 
 @media screen and (max-height: 450px) {
-    .sidenav {
+    #side {
         padding-top: 15px;
     }
-    .sidenav a {
+    #side a {
         font-size: 18px;
     }
 }
