@@ -35,7 +35,7 @@ p {
 #close {
     border: none;
     display: block;
-    padding-left: 90%;
+    padding-left: 85%;
     overflow: hidden;
     text-decoration: none;
     color: inherit;
@@ -44,7 +44,7 @@ p {
     cursor: pointer;
     white-space: nowrap;
     color: #818181;
-    font-size: 110%;
+    font-size: 150%;
     text-align: right;
 }
 

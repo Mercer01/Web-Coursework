@@ -10,5 +10,13 @@ function close() {
     document.getElementById("open").style.display = "block"
 }
 
+function checkifmobile() {
+    if(window.innerWidth <= 1800 && window.innerHeight <= 1600) {
+        close()
+    }
+}
+
 document.getElementById("close").onclick = close;
 document.getElementById("open").onclick = open;
+checkifmobile();
+
