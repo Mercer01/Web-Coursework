@@ -6,7 +6,7 @@ function open() {
 
 function close() {
     document.getElementById("side").style.display= "none";
-    document.getElementById("main").style.marginLeft = "0px"
+    document.getElementById("main").style.marginLeft = "10px"
     document.getElementById("open").style.display = "block"
 }
 
