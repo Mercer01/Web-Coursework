@@ -17,7 +17,7 @@ function create_navbar() {
       </a>
       <a href="https://validator.w3.org/check?uri=referer">
           <img style="border:0;width:88px;height:31px"
-                src="https://www.w3.org/Icons/valid-html401-blue"
+                src="https://upload.wikimedia.org/wikipedia/commons/b/bb/W3C_HTML5_certified.png"
                 alt="Valid HTML!" />
       </a>
       </footer>
