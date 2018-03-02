@@ -1,7 +1,6 @@
 body {
     background-color: white;
     margin-left: 210px;
-    padding: 0px;
     height: 100%;
     /* font-family: "Helvetica Neue", Helvetica, Arial; */
     line-break: normal;
@@ -11,13 +10,7 @@ h1 {
     text-align: center;
 }
 
-p {
-    /* font-family: Cambria; */
-    /* font-size: 20px; */
-}
-
 #video {
-    margin-left: 210px;
     margin: 0 auto; 
     display: block;
     margin: 0 auto;
@@ -49,7 +42,6 @@ p {
 }
 
 #open {
-    margin-left: 0px;
     position: relative;
     display: none
 }
@@ -71,11 +63,20 @@ p {
 
 .footer_sidebar {
     position: fixed;
-    /* left:1%; */
     width: 10%;
     bottom: 0;
     display: block;
 }
+
+.subimage {
+    display: block;
+    width: 40%;
+    height: 50%;
+    padding: 10px 10px 10px 10px;
+    float:left;
+    position: relative;
+}
+
 
 #side {
     height: 100%;
